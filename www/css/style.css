@@ -1,0 +1,33 @@
+.row-full					{ padding:0 !important; }
+.header-orange				{ height: 5px !important; background-color: #EA8A2D; }
+.header-blue				{ height: 5px !important; background-color: #26B2DC; }
+.header-magenta				{ height: 5px !important; background-color: #D52566; }
+.header-green				{ height: 5px !important; background-color: #B3CE45; }
+.logo						{ padding-top: 20px; text-align: center; }
+.logo img					{ width: 75%; max-width: 550px; }
+
+/* Dashboard screen */
+.eb-dash-enkhuizen			{ padding: 0 !important; z-index: 0; background-position: center center !important; background-size: cover !important; }
+.eb-dash-enkhuizen img		{ width: 100%; height: 150px; overflow-y: hidden; display: block; }
+.eb-dash-title				{ background-color: rgba(0,0,0,0.5); color: #fff; margin-top: 100px !important; padding-top: 10px; line-height: 0.5em; z-index: 1; }
+.eb-dash-title h2			{ color: #fff; font-size: 1.6em; margin: 0; line-height: 1.4em; padding: 0; }
+.eb-dash-zindex				{ z-index: 0 !important; }
+.eb-dash-title .icon		{ font-size: 30px; line-height: 1em; font-weight: 100; float:right; }
+.eb-dash-title .padding		{ padding-top: 3px; padding-bottom: 0px; }
+
+.eb-dash-list .eb-icon-left	{ color: #B2B2B2; }
+.eb-dash-list .ion-ios7-arrow-right	{ color: #D52566; font-size: 30px; font-weight: 100; }
+
+/* Standard header */
+.bar-header					{ background-color: #D00467 !important; }
+.bar-header .title			{ color: #ffffff !important; }
+
+/* Calendar tab */
+.bar-subheader				{ background-color: #F7F7F7 !important; }
+.eb-agenda-list-image		{ width: 10%; height: 10%; float:left; }
+.eb-agenda-list-image img	{ width: 100%; }
+.eb-agenda-list-info		{ width: 90%; float:left; line-height: 1em; }
+.eb-agenda-list-info span	{ font-size: 0.6em; color: #cccccc; line-height: 0.6em; }
+.eb-agenda-loading			{ margin-top: 50px; width: 100%; display:block; text-align: center; display:none; }
+.elementHidden				{ display: block; }
+.no-padding 				{ padding: 0px !important; }					

@@ -1,0 +1,16 @@
+<ion-view title="AGENDA">
+  <ion-content>
+  	<div class="eb-agenda-loading">
+	    <i class="icon icon-large ion-loading-b"></i>
+    </div>
+  </ion-content>
+  <ion-content id="eb-agenda-container">
+    <ion-list>
+      <ion-item ng-repeat="calendar in calendars" class="item-thumbnail-left" type="item-text-wrap" href="#/tab/calendar/{{calendar.id}}">
+        <img ng-src="http://www.enkhuizenboeit.nl{{calendar.image}}">
+        <h2>{{calendar.title}}</h2>
+        <p>{{calendar.from}}{{calendar.till}}</p>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
